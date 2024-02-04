@@ -6,7 +6,7 @@
     $products = $productService->getAllProducts();
 ?>
 <div class="container mt-5">
-    <h2>Список продуктов</h2>
+    <h2>Список товаров</h2>
 
     <?php if (!empty($products)): ?>
         <div class="row mt-3">
@@ -26,7 +26,7 @@
             <?php endforeach; ?>
         </div>
     <?php else: ?>
-        <p>Нет доступных продуктов.</p>
+        <p>Нет доступных товаров.</p>
     <?php endif; ?>
 </div>
 
