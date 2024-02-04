@@ -8,7 +8,16 @@
     $users = $userService->getAllUsers();
 ?>
 
+<div class="row m-5">
+    <div class="col-12">
+        <h2>Управление товарами</h2>
+        <a href="product_management.php" class="btn btn-outline-info">Перейти к управлению товарами</a>
+    </div>
+</div>
+
+
 <div class="container mt-5">
+    <h2>Все пользователи</h2>
     <table class="table table-bordered">
         <thead class="thead-dark">
             <tr>
@@ -38,9 +47,10 @@
 </div>
 
 <div class="row m-5">
-        <div class="col-12">
-            <div id="map" style="height: 400px;"></div>
-        </div>
+    <div class="col-12">
+        <h2>Карта пользователей</h2>
+        <div id="map" style="height: 400px;"></div>
+    </div>
 </div>
 
 <script>
